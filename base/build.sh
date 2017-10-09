@@ -2,6 +2,7 @@
 
 NAME='u4bi/ubuntu:16.04'
 DATA=(  'kor-lang'
+        'git-core'
         'curl'
         'nodejs'
         'npm-check'
