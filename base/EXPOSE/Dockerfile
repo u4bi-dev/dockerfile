@@ -1,0 +1,3 @@
+FROM u4bi/ubuntu:16.04
+
+EXPOSE 7777
