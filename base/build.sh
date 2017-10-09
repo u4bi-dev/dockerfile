@@ -4,6 +4,7 @@ NAME='u4bi/ubuntu:16.04'
 DATA=(  'kor-lang'
         'curl'
         'nodejs'
+        'npm-check'
      )
 
 echo '개발환경 조성을 위한 도커파일 빌드를 시작합니다'
