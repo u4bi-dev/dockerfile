@@ -1,0 +1,1 @@
+docker build -t u4bi/apache-php7:0.1 ./
