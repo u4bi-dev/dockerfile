@@ -18,3 +18,5 @@ ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
 ADD site/index.php /var/www/site/index.php
 
 RUN echo 'ServerName localhost' >> /etc/apache2/apache2.conf
+
+RUN cd /tmp && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
