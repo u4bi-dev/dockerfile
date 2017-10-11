@@ -15,4 +15,6 @@ ENV APACHE_LOCK_DIR /var/lock/apache2
 ENV APACHE_PID_FILE /var/run/apache2.pid
 
 ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
+ADD site/index.php /var/www/site/index.php
+
 RUN echo 'ServerName localhost' >> /etc/apache2/apache2.conf

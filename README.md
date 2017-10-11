@@ -16,3 +16,19 @@
 인스턴스 컨테이너입니까? (y / n)
     y
 ```
+
+### apache-php7
+
+#### build
+```
+./build.sh
+```
+
+#### run
+```
+./run.sh
+
+$ apachectl start
+
+http://localhost:7799/
+```
