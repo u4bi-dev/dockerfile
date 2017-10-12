@@ -41,7 +41,26 @@ http://localhost:7799/
 ./build.sh
 ```
 
-#### exec
+> #### startup
+> ```sql
+>  ./getpass.sh
+> 
+> [Entrypoint] > GENERATED ROOT PASSWORD: { onetime access password }
+> 
+> ./exec.sh
+> 
+> Enter password : { onetime access password }
+> 
+> 
+> ALTER USER 
+>     'root'@'172.17.0.1'
+> IDENTIFIED BY 
+>     'your_password';
+> 
+> SHOW databases;
+> ```
+
+### exec
 ```
 ./exec.sh
 ```
