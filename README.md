@@ -32,3 +32,16 @@ $ apachectl start
 
 http://localhost:7799/
 ```
+
+
+### mysql
+
+#### build
+```
+./build.sh
+```
+
+#### exec
+```
+./exec.sh
+```
